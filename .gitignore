@@ -1,0 +1,49 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# PyInstaller / Nuitka build artifacts (Windows desktop bundles)
+*.spec.bak
+build/windows/
+dist/windows/
+
+# Model weights — pulled from HF hub at runtime, never committed
+models/weights/*.onnx
+models/weights/*.pt
+models/weights/*.pth
+models/weights/*.safetensors
+models/cache/
+
+# User colorization output
+outputs/
+*.colorized.png
+
+# IDE / editor
+.idea/
+.vscode/
+*.swp
+
+# OS junk
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Local config overrides
+config/local.toml
+.env
