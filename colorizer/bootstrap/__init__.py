@@ -1,0 +1,1 @@
+"""Application bootstrap: entry points, DI wiring, lifecycle."""
