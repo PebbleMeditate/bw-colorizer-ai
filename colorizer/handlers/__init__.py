@@ -1,0 +1,1 @@
+"""Thin command handlers. No business logic lives here."""
